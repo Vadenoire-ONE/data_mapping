@@ -17,17 +17,17 @@ This Python script is designed to automate the extraction, processing, and struc
 
 ## Project Structure
 
+```
 /your_project_folder/
-|-- data_mapping.py         # <-- The main script
-|-- raw_code_dataset.txt    # <-- Lookup file for codes and names
-|-- /balances/              # <-- Directory for source report files
-|   |-- report_1.xlsx
-|   |-- report_2.xlsx
-|   `-- ...
-|
-`-- (Files generated after running the script)
-    |-- for_further_analysis.xlsx # <-- The final output file with consolidated data
-    `-- data_mapping_log.txt      # <-- The detailed processing log
+|-- data_mapping.py # <-- The main script
+|-- raw_code_dataset.txt # <-- Lookup file for codes and names
+|-- /balances/ # <-- Directory for source report files
+| |-- report_1.xlsx
+| |-- report_2.xlsx
+| -- ... | -- (Files generated after running the script)
+|-- for_further_analysis.xlsx # <-- The final output file with consolidated data
+`-- data_mapping_log.txt # <-- The detailed processing log
+```
 
 ## Installation
 
