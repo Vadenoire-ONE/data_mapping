@@ -17,8 +17,6 @@ This Python script is designed to automate the extraction, processing, and struc
 
 ## Project Structure
 
-For the script to work correctly, your project must have the following folder and file structure:
-
 /your_project_folder/
 |-- data_mapping.py         # <-- The main script
 |-- raw_code_dataset.txt    # <-- Lookup file for codes and names
