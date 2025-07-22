@@ -20,15 +20,16 @@ This Python script is designed to automate the extraction, processing, and struc
 For the script to work correctly, your project must have the following folder and file structure:
 
 /your_project_folder/
-|-- data_mapping.py # <-- The main script
-|-- raw_code_dataset.txt # <-- Lookup file for codes and names
-|-- /balances/ # <-- Directory for source report files
-| |-- report_1.xlsx
-| |-- report_2.xlsx
-| -- ... | -- (Files generated after running the script)
-|-- for_further_analysis.xlsx # <-- The final output file with consolidated data
-`-- data_mapping_log.txt # <-- The detailed processing log
-
+|-- data_mapping.py         # <-- The main script
+|-- raw_code_dataset.txt    # <-- Lookup file for codes and names
+|-- /balances/              # <-- Directory for source report files
+|   |-- report_1.xlsx
+|   |-- report_2.xlsx
+|   `-- ...
+|
+`-- (Files generated after running the script)
+    |-- for_further_analysis.xlsx # <-- The final output file with consolidated data
+    `-- data_mapping_log.txt      # <-- The detailed processing log
 
 ## Installation
 
@@ -64,4 +65,4 @@ For the script to work correctly, your project must have the following folder an
     ```
     2025-07-22 10:30:00 [INFO] Found: File='report_1.xlsx', Source='Balance Sheet'!J7, Target='2024'!1150, Saldo=245.0
     ```
-  - This file allows you to trace the source of every value and simplifies data validation.
+  - This file allows you to trace the source of every value and simplifies data validation.git
